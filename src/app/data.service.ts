@@ -11,7 +11,7 @@ const httpOptions = {
 
 @Injectable()
 export class DataService {
-  private url = 'https://arcane-headland-20145.herokuapp.com/list';
+  private url = 'assets/api/mock-data.json';
 
   constructor(private http: HttpClient) { }
 
