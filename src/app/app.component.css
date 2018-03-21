@@ -1,0 +1,62 @@
+.container{
+    background-color: #fff;
+    padding: 2em 2em;
+}
+.container .title{
+    text-align: center;
+    font-size: 2em;
+    color: red;
+    font-weight: bold;
+}
+.container .tweet-container li:nth-child(odd) { 
+    background: #e6ecf0; 
+}
+.container .tweet-container .tweet-body{
+    margin-top:2em;
+    display: flex;
+    background-color: #ccc;
+    justify-content: flex-start;
+}
+
+.container .tweet-container .tweet-body .image-container{
+    flex: 2;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5em;
+}
+.container .tweet-container .tweet-body .profile-avatar{
+    background: #fff;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    height: 60px;
+    position: relative;
+    width: 60px;
+    margin:1em 0;
+}
+.container .tweet-container .tweet-body .img{
+    border-radius: 50%;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    transition: box-shadow .15s ease-in-out;
+}
+
+.container .tweet-container .tweet-body .tweet{
+    margin: 1em 0 0 0;
+    flex: 10;
+    padding: 0.5em;
+}
+
+.container .tweet-container .tweet-body .tweet .account-name{
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.container .tweet-container .tweet-body .tweet .account-name .email{
+    font-weight: normal;
+    color:#999;
+    margin-left: 0.2em;
+    font-size: 0.9em;
+}
